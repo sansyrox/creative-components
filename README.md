@@ -4,7 +4,7 @@
 
 Current RoadMap
 
-- Following Cursor []
+- Following Cursor [x]
 
 - Simple Grid []
 
@@ -21,6 +21,10 @@ Current RoadMap
 - Section with image preview like in my Portfolio []
 
 - An OP navbar like in client project []
+
+- Skew Scrolling Page []
+
+- A page with AOS on every item/child []
 
 [![NPM](https://img.shields.io/npm/v/creative-components.svg)](https://www.npmjs.com/package/creative-components) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
