@@ -1,6 +1,6 @@
 {
   "name": "creative-components",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A creative component library ",
   "author": "sansyrox",
   "license": "MIT",
@@ -8,6 +8,9 @@
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "engines": {
     "node": ">=10"
   },
@@ -51,6 +54,7 @@
     "dist"
   ],
   "dependencies": {
+    "include-media": "^1.4.9",
     "node-sass": "^4.14.1"
   }
 }
