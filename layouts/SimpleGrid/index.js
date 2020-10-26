@@ -2,7 +2,7 @@
 import React from 'react'
 
 // style.scss
-import './style.module.scss'
+import './style.scss'
 
 // util functions
 import { nullFiltering } from '../../utils'
@@ -19,7 +19,7 @@ const SimpleGrid = ({
   rowGap,
   rowSize
 }) => {
-  const styles = {
+  let styles = {
     gridAutoColumns: columns ? `repeat(${columns}, 1fr)` : null,
     gridTemplateRows: rows ? `repeat(${rows}, 1fr)` : null,
     gridAutoRows: `${rowSize}px`,
@@ -29,7 +29,7 @@ const SimpleGrid = ({
 
   styles = nullFiltering(styles)
   return (
-    <div className='wrapper' style={{ ...styles }}>
+    <div className='wrapper' style={styles}>
       {children}
     </div>
   )

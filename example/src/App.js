@@ -1,10 +1,44 @@
 import React from 'react'
 
-import { ExampleComponent } from 'creative-components'
+import { FollowingCursor, SimpleGrid } from 'creative-components'
 import 'creative-components/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <>
+      <FollowingCursor />
+      <SimpleGrid>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+        <div>Hello world</div>
+      </SimpleGrid>
+    </>
+  )
 }
 
 export default App
