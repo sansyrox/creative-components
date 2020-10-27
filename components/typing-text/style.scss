@@ -1,0 +1,21 @@
+.typing-text {
+  font-size: 5em;
+  color: black;
+  text-transform: uppercase;
+  display: inline;
+  font-family: 'tradegothiclt-bold', sans-serif;
+}
+
+.typing-pointer {
+  border-right: 0.05em solid;
+  animation: pointer 1s infinite;
+  font-size: 5em;
+  color: black;
+  text-transform: uppercase;
+}
+
+@keyframes pointer {
+  50% {
+    border-color: transparent;
+  }
+}

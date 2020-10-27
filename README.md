@@ -6,7 +6,7 @@ Current RoadMap
 
 - Following Cursor [x]
 
-- Simple Grid []
+- Simple Grid [x]
 
 - Full Size Grid []
 
@@ -16,7 +16,7 @@ Current RoadMap
 
 - Text section with image preview []
 
-- TypeWriter Text animation []
+- TypeWriter Text animation [x]
 
 - Section with image preview like in my Portfolio []
 

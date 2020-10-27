@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { FollowingCursor, SimpleGrid } from 'creative-components'
+import { FollowingCursor, SimpleGrid, TypingText } from 'creative-components'
 import 'creative-components/dist/index.css'
 
 const App = () => {
@@ -36,6 +36,7 @@ const App = () => {
         <div>Hello world</div>
         <div>Hello world</div>
         <div>Hello world</div>
+        <TypingText text='Hello' speed={100} />
       </SimpleGrid>
     </>
   )
