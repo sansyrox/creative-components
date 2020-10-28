@@ -32,6 +32,8 @@ Current RoadMap
 
 - Docz/Storybook integration maybe []
 
+- Scroll Trigger and Smooth Scrool integration []
+
 [![NPM](https://img.shields.io/npm/v/creative-components.svg)](https://www.npmjs.com/package/creative-components) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
