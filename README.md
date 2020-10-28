@@ -8,7 +8,9 @@ Current RoadMap
 
 - Simple Grid [x]
 
-- Full Size Grid []
+- Many Grid Orientations [x]
+
+  - Full Size Grid [] [Need to allow custom props in every layout component: like fullscreen: true]
 
 - Text with underline []
 

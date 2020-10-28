@@ -1,0 +1,11 @@
+.deconstructed-pancake__parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .deconstructed-pancake__child {
+    flex: 1 1 150px; /*  Stretching: */
+    flex: 0 1 150px; /*  No stretching: */
+    margin: 5px;
+  }
+}

@@ -1,0 +1,25 @@
+.classic-grid-parent {
+  display: grid;
+  grid-template: auto 1fr auto / auto 1fr auto;
+
+  &__header {
+    padding: 2rem;
+    grid-column: 1 / 4;
+  }
+
+  &__left-sidebar {
+    grid-column: 1 / 2;
+  }
+
+  &__main-content {
+    grid-column: 2/3;
+  }
+
+  &__right-sidebar {
+    grid-column: 3/4;
+  }
+
+  &__footer {
+    grid-column: 1/4;
+  }
+}
