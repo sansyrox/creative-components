@@ -26,6 +26,12 @@ Current RoadMap
 
 - A page with AOS on every item/child []
 
+- A complete grid package []
+
+- Show/Hide Component on Grid Up down []
+
+- Docz/Storybook integration maybe []
+
 [![NPM](https://img.shields.io/npm/v/creative-components.svg)](https://www.npmjs.com/package/creative-components) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
