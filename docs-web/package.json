@@ -7,10 +7,14 @@
     "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
     "build": "node ../node_modules/react-scripts/bin/react-scripts.js build",
     "test": "node ../node_modules/react-scripts/bin/react-scripts.js test",
-    "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
+    "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build",
+    "docz:serve": "docz build && docz serve"
   },
   "dependencies": {
     "creative-components": "link:..",
+    "docz": "^2.3.1",
     "include-media": "^1.4.9",
     "react": "link:../node_modules/react",
     "react-dom": "link:../node_modules/react-dom",

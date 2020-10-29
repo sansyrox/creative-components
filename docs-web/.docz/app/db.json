@@ -1,0 +1,63 @@
+{
+  "config": {
+    "title": "Creative Components Example",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "version": "0.0.0",
+    "repository": null,
+    "native": false,
+    "themeConfig": {},
+    "separator": "-"
+  },
+  "entries": [
+    {
+      "key": "README.md",
+      "value": {
+        "id": "04c6e90faac2675aa89e2176d2eec7d8",
+        "filepath": "README.md",
+        "fullpath": "/Users/sanskar/Desktop/creative-components/example/README.md",
+        "link": "",
+        "hidden": false,
+        "slug": "readme",
+        "route": "/readme",
+        "name": "Readme",
+        "menu": "",
+        "headings": []
+      }
+    },
+    {
+      "key": "src/index.mdx",
+      "value": {
+        "name": "Hello world",
+        "route": "/",
+        "id": "6576455a124f9aaefd860597f03a8fe4",
+        "filepath": "src/index.mdx",
+        "fullpath": "/Users/sanskar/Desktop/creative-components/example/src/index.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-index",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "followingcursor",
+            "depth": 1,
+            "value": "FollowingCursor"
+          }
+        ]
+      }
+    }
+  ],
+  "props": [
+    {
+      "key": "src/App.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "App",
+          "methods": [],
+          "actualName": "App"
+        }
+      ]
+    }
+  ]
+}
