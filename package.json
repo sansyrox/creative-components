@@ -54,6 +54,8 @@
     "dist"
   ],
   "dependencies": {
-    "node-sass": "^4.14.1"
+    "framer-motion": "^2.9.4",
+    "node-sass": "^4.14.1",
+    "react-progressive-image": "^0.6.0"
   }
 }

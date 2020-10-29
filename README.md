@@ -26,6 +26,8 @@ Current RoadMap
 
 - Skew Scrolling Page []
 
+- Smooth Scrolling Page []
+
 - A page with AOS on every item/child []
 
 - A complete grid package []

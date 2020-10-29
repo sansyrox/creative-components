@@ -22,4 +22,4 @@ yarn-debug.log*
 yarn-error.log*
 
 # docz generated folder
-example/.docz
+docs-web/.docz
