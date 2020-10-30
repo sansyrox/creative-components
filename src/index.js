@@ -2,6 +2,7 @@
 export { default as FollowingCursor } from '../components/following-cursor'
 export { default as TypingText } from '../components/typing-text'
 export { default as TranslatingImage } from '../components/TranslatingImage'
+export { default as MovingUnderlineText } from '../components/MovingUnderLineText'
 
 // Layouts
 export { default as SimpleGrid } from '../layouts/SimpleGrid'

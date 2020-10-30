@@ -23,28 +23,26 @@ function TranslatingImage({
 
   return (
     <div className='translating-image__frame'>
-        <AnimatePresence>
-      <ProgressiveImage
-        src={mainImageUrl}
-        placeholder={placeholderImageUrl ?? mainImageUrl}
-        style={...styles}
-      >
-
-        {(src) => (
-          <motion.img
-            initial={{ scale: 1 }}
-            whileHover={{ scale: scaleMagnification ?? 1.1 }}
-            trasition={{
-              duration: 0.6,
-              ease: [0.43, 0.13, 0.23, 0.96] //'ease-in-out' // [0.43, 0.13, 0.23, 0.96] corresponds to this bezier curve
-            }}
-            src={`${src}`}
-            alt={`${altText ?? 'Alt Text'}`}
-          />
-        )}
-
-      </ProgressiveImage>
-        </AnimatePresence>
+      <AnimatePresence>
+        <ProgressiveImage
+          src={mainImageUrl}
+          placeholder={placeholderImageUrl ?? mainImageUrl}
+          style={{ ...styles }}
+        >
+          {(src) => (
+            <motion.img
+              initial={{ scale: 1 }}
+              whileHover={{ scale: scaleMagnification ?? 1.1 }}
+              trasition={{
+                duration: 0.6,
+                ease: [0.43, 0.13, 0.23, 0.96] //'ease-in-out' // [0.43, 0.13, 0.23, 0.96] corresponds to this bezier curve
+              }}
+              src={`${src}`}
+              alt={`${altText ?? 'Alt Text'}`}
+            />
+          )}
+        </ProgressiveImage>
+      </AnimatePresence>
     </div>
   )
 }

@@ -14,7 +14,7 @@ Current RoadMap
 
 - Text with underline []
 
-- Image Haze []
+- Image Haze [x]
 
 - Text section with image preview []
 
@@ -34,7 +34,7 @@ Current RoadMap
 
 - Show/Hide Component on Grid Up down []
 
-- Docz/Storybook integration maybe []
+- Docz/Storybook integration maybe [x]
 
 - Scroll Trigger and Smooth Scrool integration []
 

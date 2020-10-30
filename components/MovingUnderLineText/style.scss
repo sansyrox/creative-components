@@ -1,0 +1,22 @@
+.moving-underline-text {
+  position: relative;
+
+  &:after {
+    position: absolute;
+    content: '';
+    color: black;
+    right: 0;
+    width: 0;
+    height: 2px;
+    margin-top: 5px;
+    transition: 0.4s ease;
+  }
+
+  &:hover {
+    &:after {
+      width: 100%;
+      left: 0;
+      background-color: black;
+    }
+  }
+}
