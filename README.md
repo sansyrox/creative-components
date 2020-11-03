@@ -12,7 +12,7 @@ Current RoadMap
 
   - Full Size Grid [] [Need to allow custom props in every layout component: like fullscreen: true]
 
-- Text with underline []
+- Text with underline [x]
 
 - Image Haze [x]
 
@@ -24,7 +24,7 @@ Current RoadMap
 
 - An OP navbar like in client project []
 
-- Skew Scrolling Page []
+- Skew Scrolling Page [x]
 
 - Smooth Scrolling Page []
 
@@ -36,7 +36,7 @@ Current RoadMap
 
 - Docz/Storybook integration maybe [x]
 
-- Scroll Trigger and Smooth Scrool integration []
+- Scroll Trigger: Apple like animation[]
 
 [![NPM](https://img.shields.io/npm/v/creative-components.svg)](https://www.npmjs.com/package/creative-components) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 

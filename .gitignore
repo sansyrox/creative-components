@@ -22,4 +22,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # docz generated folder
-docs-web/.docz
+docs-web/.docz/*
+docs-web/.docz/
