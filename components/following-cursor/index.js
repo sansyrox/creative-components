@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react'
+import PropTypes from 'prop-types'
 
 // Importing util functions
 import { lerp } from '../../utils'
@@ -47,7 +48,6 @@ const Following_Cursor = ({ cursorWidth, cursorHeight, borderColor }) => {
       mouseX = e.clientX
     })
 
-    console.log('Bruh')
     requestAnimationFrame(move)
   }, [])
 
@@ -69,6 +69,13 @@ const Following_Cursor = ({ cursorWidth, cursorHeight, borderColor }) => {
       }}
     ></div>
   )
+}
+
+// Usage : <Following_Cursor cursorWidth={number} cursorHeight={number} borderColor={string} />
+Following_Cursor.propTypes = {
+  cursorWidth: PropTypes.number,
+  cursorHeight: PropTypes.number,
+  borderColor: PropTypes.string
 }
 
 export default Following_Cursor

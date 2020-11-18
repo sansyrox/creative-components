@@ -1,4 +1,9 @@
-.moving-underline-text {
+.moving-underline__parent {
+  max-width: max-content;
+  max-height: min-content;
+}
+
+.moving-underline__wrapper {
   position: relative;
 
   &:after {
@@ -8,7 +13,7 @@
     right: 0;
     width: 0;
     height: 2px;
-    margin-top: 5px;
+    margin-top: 1em;
     transition: 0.4s ease;
   }
 
