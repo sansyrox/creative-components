@@ -1,4 +1,9 @@
 .pancake-stack__parent {
   display: grid;
   grid-template-rows: auto 1fr auto;
+
+  &:nth-child(n) {
+    text-align: center;
+  }
 }
+

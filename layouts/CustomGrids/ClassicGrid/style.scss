@@ -3,23 +3,28 @@
   grid-template: auto 1fr auto / auto 1fr auto;
 
   &__header {
+    text-align: center;
     padding: 2rem;
     grid-column: 1 / 4;
   }
 
   &__left-sidebar {
+    text-align: center;
     grid-column: 1 / 2;
   }
 
   &__main-content {
+    text-align: center;
     grid-column: 2/3;
   }
 
   &__right-sidebar {
+    text-align: center;
     grid-column: 3/4;
   }
 
   &__footer {
+    text-align: center;
     grid-column: 1/4;
   }
 }

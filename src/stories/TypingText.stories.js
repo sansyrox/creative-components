@@ -8,13 +8,13 @@ export default {
 
 const Template = (args) => <TypingText {...args}>Hello World</TypingText>
 
-export const Primary = Template.bind({})
-Primary.args = {
+export const Required = Template.bind({})
+Required.args = {
   text: 'Hello World'
 }
 
-export const Secondary = Template.bind({})
-Secondary.args = {
+export const Optional = Template.bind({})
+Optional.args = {
   text: 'Hello World',
   speed: 10,
   textColor: 'red',
