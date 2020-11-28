@@ -2,7 +2,7 @@
 @import './../../src/include-media';
 
 .wrapper {
-  display: grid;
+  display: grid !important;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(calc(100 / 3 vh), auto);
   column-gap: 10px;

@@ -22,7 +22,7 @@ const SimpleGrid = ({
   let styles = {
     gridAutoColumns: columns ? `repeat(${columns}, 1fr)` : null,
     gridTemplateRows: rows ? `repeat(${rows}, 1fr)` : null,
-    gridAutoRows: `${rowSize}px`,
+    gridAutoRows: rowSize ? `${rowSize}px` : null,
     columnGap: columnGap ? `${columnGap}px` : null,
     rowGap: rowGap ? `${rowGap}px` : null
   }

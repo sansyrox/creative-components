@@ -13,7 +13,8 @@ import { styleInjector } from '../../../utils'
 
 function ClassicGrid({ children }) {
   if (children.length !== 5) {
-    throw 'There should be 3 child components.'
+    console.log(children)
+    throw 'There should be 5 child components.'
   }
 
   const children_ordering = [
