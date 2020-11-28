@@ -17,6 +17,7 @@ import './style.scss'
 
 function SkewScroll({ children, skewSpeed = 0.25 }) {
   // useEffect is used everywhere as 'window' is not accessible in SSR and static frameworks
+  console.log({ children, skewSpeed })
   useEffect(() => {
     const skewedChildren = document.querySelectorAll('.skew-scroll-component')
 
